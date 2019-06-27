@@ -19,6 +19,6 @@ IMAGE_FILE    The .png or .jpg to process.
 
 -e ETCH_DEEP  Depth to etch surface, default is 2mm
 
---stamp       Create a "negative" tile to use as a stamp
+--stamp       Create a "negative" tile to use as a stamp for foam or other material
 
-
+![Wood planks stamp](https://raw.githubusercontent.com/AlexTheHuman/tile-maker/master/img/stamp_wood.jpg)
