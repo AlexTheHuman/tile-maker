@@ -81,11 +81,11 @@ for x in range(x_res):
             z = args.THICK - ((1.0 - value) * args.ETCH_DEEP)
 
         # Add the etched surface point
-        points[-1].append((z, x * x_step, y * y_step))
+        points[-1].append((z, x * x_step, (y_res - y) * y_step))
 
         # Add the un-etched surface point
         z = 0
-        points_inner[-1].append((z, x * x_step, y * y_step))
+        points_inner[-1].append((z, x * x_step, (y_res - y) * y_step))
 
 print()
 
